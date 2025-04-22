@@ -18,11 +18,12 @@ Projeto python inicializado com o UV.
 
 Comandos utilizados para setup do ambiente:
 
-bash copy
+```bash copy
 uv init
 uv venv
 source .venv/bin/activate
 uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
+```
 
 ####  Modelo ER - Iceberg
 
@@ -36,9 +37,9 @@ Projeto python inicializado com o UV.
 
 Comandos utilizados para setup do ambiente:
 
-bash copy
+```bash copy
 uv init
 uv venv
 source .venv/bin/activate
-uv add pyspark==3.5.3 delta-iceberg==3.2.0 jupyterlab ipykernel
-
+uv add pyspark==3.5.3 jupyterlab ipykernel
+```
