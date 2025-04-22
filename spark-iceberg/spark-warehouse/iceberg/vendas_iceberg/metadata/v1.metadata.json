@@ -1,0 +1,61 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "47620c98-288e-4e54-a28a-816e4525ae00",
+  "location" : "spark-warehouse/iceberg/vendas_iceberg",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1745292781529,
+  "last-column-id" : 5,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "id_cliente",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "id_carro",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "preco",
+      "required" : false,
+      "type" : "float"
+    }, {
+      "id" : 5,
+      "name" : "data",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "Usuario",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}
