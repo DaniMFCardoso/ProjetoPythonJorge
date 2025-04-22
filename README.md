@@ -44,4 +44,4 @@ source .venv/bin/activate
 uv add pyspark==3.5.3 jupyterlab ipykernel
 ```
 
-[Ver arquivo de configuração](./spark-iceberg/spark-iceberg.ipynb)
+[Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Iceberg](./spark-iceberg/spark-iceberg.ipynb)
