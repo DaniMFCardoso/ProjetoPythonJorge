@@ -43,3 +43,5 @@ uv venv
 source .venv/bin/activate
 uv add pyspark==3.5.3 jupyterlab ipykernel
 ```
+
+[Ver arquivo de configuração](./spark-iceberg/spark-iceberg.ipynb)
