@@ -24,7 +24,7 @@ uv venv
 source .venv/bin/activate
 uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
 ```
-[Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Delta](.spark-delta/spark-delta-lake.ipynb)
+[Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Delta](https://github.com/DaniMFCardoso/ProjetoPythonJorge/blob/main/spark-delta/spark-delta-lake.ipynb)
 
 ####  Modelo ER - Iceberg
 
@@ -45,4 +45,4 @@ source .venv/bin/activate
 uv add pyspark==3.5.3 jupyterlab ipykernel
 ```
 
-[Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Iceberg](./spark-iceberg/spark-iceberg.ipynb)
+[Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Iceberg](https://github.com/DaniMFCardoso/ProjetoPythonJorge/blob/main/spark-iceberg/spark-iceberg.ipynb)
