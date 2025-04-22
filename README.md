@@ -1,24 +1,32 @@
-
-## ProjetoPythonJorge
-Grupo: Joshua, Daniela e Emely
+## Projeto Python Jorge
+**Grupo:** Joshua, Daniela e Emely
 
 ### 📂 Projeto Apache Spark com Delta Lake
-Projeto desenvolvido para demonstração do Apache Spark Local (pyspark) gravando arquivos no formato Delta Lake também de forma local criando modelo ER, imagens e códigos DDL - e da fonte de dados utilizada (dados públicos) e evidenciando e explicando, 
-com exemplos, os comandos de INSERT, UPDATE e DELETE.
 
-####  Modelo ER - Delta
+Projeto desenvolvido para demonstração do Apache Spark local (PySpark), gravando arquivos no formato **Delta Lake** de forma local. O projeto contempla:
 
-![image](https://github.com/user-attachments/assets/4b98ee3d-5d8c-4b24-b5ad-2a157668a7c9)
+- Criação de modelo entidade-relacionamento (ER),
+- Geração de imagens e códigos DDL,
+- Uso de fonte de dados públicos,
+- Evidenciação e explicação, com exemplos, dos comandos `INSERT`, `UPDATE` e `DELETE`.
 
-Para o projeto nós utilizamos este modelo ER para as tabelas de carro_delta, cliente_delta e vendas_delta.
+#### 🗂️ Modelo ER - Delta
 
-#### Comandos Utilizados
+![Modelo ER - Delta](https://github.com/user-attachments/assets/4b98ee3d-5d8c-4b24-b5ad-2a157668a7c9)
 
-Projeto python inicializado com o UV.
+Para o projeto, utilizamos este modelo ER para as seguintes tabelas:
 
-Comandos utilizados para setup do ambiente:
+- `carro_delta`
+- `cliente_delta`
+- `vendas_delta`
 
-```bash copy
+#### ⚙️ Comandos Utilizados
+
+O projeto Python foi inicializado com o gerenciador **uv**.
+
+Comandos utilizados para configurar o ambiente:
+
+```bash
 uv init
 uv venv
 source .venv/bin/activate
@@ -26,19 +34,23 @@ uv add pyspark==3.5.3 delta-spark==3.2.0 jupyterlab ipykernel
 ```
 [Ver arquivo de  INSERT, UPDATE e DELETE nas tabelas Delta](https://github.com/DaniMFCardoso/ProjetoPythonJorge/blob/main/spark-delta/spark-delta-lake.ipynb)
 
-####  Modelo ER - Iceberg
+#### 🗂️ Modelo ER - Iceberg
 
-![image](https://github.com/user-attachments/assets/273b273a-1f55-424c-81b4-b1c9720504eb)
+![Modelo ER - Iceberg](https://github.com/user-attachments/assets/273b273a-1f55-424c-81b4-b1c9720504eb)
 
-Para o projeto nós utilizamos este modelo ER para as tabelas de carro_iceberg, cliente_iceberg e vendas_iceberg.
+Para o projeto, utilizamos este modelo ER para as seguintes tabelas:
 
-#### Comandos Utilizados
+- `carro_iceberg`
+- `cliente_iceberg`
+- `vendas_iceberg`
 
-Projeto python inicializado com o UV.
+#### ⚙️ Comandos Utilizados
 
-Comandos utilizados para setup do ambiente:
+O projeto Python foi inicializado com o gerenciador **uv**.
 
-```bash copy
+Comandos utilizados para configurar o ambiente:
+
+```bash
 uv init
 uv venv
 source .venv/bin/activate
